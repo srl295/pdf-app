@@ -3,7 +3,15 @@
 - for https://github.com/diegomura/react-pdf/issues/2675
 - - and https://github.com/foliojs/restructure/issues/61
 
+## REPRO
+
+- `npx yarn start`
+
+## about
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+
 
 ## Available Scripts
 

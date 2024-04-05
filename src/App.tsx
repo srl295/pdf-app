@@ -1,4 +1,5 @@
 import React from 'react';
+import ReactPDF from '@react-pdf/renderer';
 import logo from './logo.svg';
 import './App.css';
 
@@ -23,5 +24,7 @@ function App() {
     </div>
   );
 }
+
+ReactPDF.render(App(), `${__dirname}/example.pdf`);
 
 export default App;
